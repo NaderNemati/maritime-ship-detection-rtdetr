@@ -62,3 +62,22 @@ python pipeline.py val   --data tdss.yaml --weights runs/detect/train/weights/be
 python pipeline.py predict --weights runs/detect/train/weights/best.pt --source /path/to/DATA_ROOT/test/images --imgsz 640 --conf 0.25 --save
 ```
 
+
+---
+
+## requirements.txt
+
+```txt
+torch>=2.1
+ultralytics>=8.2.0
+pillow
+tqdm
+pyyaml
+numpy
+opencv-python
+onnx>=1.15
+onnxruntime>=1.18
+# optional, if you later want RF-DETR/metrics
+rfdetr>=1.2.0
+rfdetr[metrics]
+
