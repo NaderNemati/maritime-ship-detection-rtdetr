@@ -2,7 +2,7 @@
 
 The repository implements a minimal end-to-end workflow for transformer-based ship detection. Given a YOLO-organized dataset (with optional train/gan/ images), pipeline.py can (a) build the Ultralytics data YAML, (b) optionally convert YOLO labels to COCO and patch categories, (c) fine-tune RT-DETR with sensible defaults, and (d) perform inference and save visualized predictions. Results (metrics, checkpoints, and predictions) are written under runs/. This serves as a strong, lightweight baseline that you can extend with tracking, AIS/Radar fusion, or uncertainty heads later.
 
-## 📁 Repository Structure
+## Repository Structure
 ```python
 ship-detection-rtdetr/
 ├─ README.md
@@ -26,3 +26,11 @@ DATA_ROOT/
     images/    labels/
 ```
 
+## Quickstart
+```bash
+python pipeline.py quickstart \
+  --data_root /path/to/DATA_ROOT \
+  --epochs 100 --imgsz 640 --batch 8 --device auto \
+  --include_gan
+
+```
