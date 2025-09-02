@@ -1,0 +1,13 @@
+torch>=2.1
+ultralytics>=8.2.0
+pillow
+tqdm
+pyyaml
+numpy
+opencv-python
+onnx>=1.15
+onnxruntime>=1.18
+# optional, if you later want RF-DETR/metrics
+rfdetr>=1.2.0
+rfdetr[metrics]
+
