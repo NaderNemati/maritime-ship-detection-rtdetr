@@ -4,7 +4,7 @@
     <tr>
       <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
         <div align=center valign=top>
-          <img src="https://github.com/NaderNemati/Multi-Sensor-Maritime-Dataset-Processing-and-Synchronization/blob/main/image/Multimodal%20Data%20Fusion%20Visualization.png" style="margin: 0px !important; height: 400px !important;">
+          <img src="[https://github.com/NaderNemati/Multi-Sensor-Maritime-Dataset-Processing-and-Synchronization/blob/main/image/Multimodal%20Data%20Fusion%20Visualization.png](https://github.com/NaderNemati/maritime-ship-detection-rtdetr/blob/main/detr.png)" style="margin: 0px !important; height: 400px !important;">
         </div>
       </td>
     </tr>
