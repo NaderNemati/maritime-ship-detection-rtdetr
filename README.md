@@ -1,3 +1,18 @@
+
+<div align="center">
+  <table border=0 style="border: 0px solid #c6c6c6 !important; border-spacing: 0px; width: auto !important;">
+    <tr>
+      <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
+        <div align=center valign=top>
+          <img src="https://github.com/NaderNemati/Multi-Sensor-Maritime-Dataset-Processing-and-Synchronization/blob/main/image/Multimodal%20Data%20Fusion%20Visualization.png" style="margin: 0px !important; height: 400px !important;">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
 This repository provides a compact workflow for transformer-based ship detection using Ultralytics RT-DETR.
 Given a YOLO-organized dataset including train/gan/ images, the dtr_ship_detection.py script can build the Ultralytics data YAML, convert YOLO labels → COCO JSON and patch categories, and train / validate the RT-DETR model with sensible defaults as well as predict on test images and save visualized outputs.
 
